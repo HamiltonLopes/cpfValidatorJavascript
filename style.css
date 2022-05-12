@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    font-size: 62.5%;
+    /*1rem = 10px*/
+}
+body{
+    font-size: 1.6rem;
+}
+
+.wrapper{
+    margin-inline: 20rem;
+}
+
+header{
+    padding-block: 10rem;
+    background: hsla(0, 3%, 58%, 0.3);
+}
+
+header h1{
+    margin-bottom: 2rem;
+}
+header p{
+    margin-bottom: 0rem;
+}
+
+section{
+    padding-block: 5rem;
+}
+
+section .content .input-group{
+    width: 50%;
+    margin-bottom: 2rem;
+}
+
+#success{
+    margin-top: 2rem;
+    display: none;
+}
+
+#fail{
+    margin-top: 2rem;
+    display: none;
+}
