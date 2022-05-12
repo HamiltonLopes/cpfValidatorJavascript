@@ -46,3 +46,28 @@ section .content .input-group{
     margin-top: 2rem;
     display: none;
 }
+
+@media (max-width: 980px){
+    .wrapper{
+        margin-inline: 2rem;
+    }
+    
+    header h1{
+        margin-bottom: 1rem;
+    }
+
+    section .content .input-group{
+        width: 50%;
+        margin-bottom: 1rem;
+    }
+    
+    #success{
+        margin-top: 1rem;
+        display: none;
+    }
+    
+    #fail{
+        margin-top: 1rem;
+        display: none;
+    }
+}
