@@ -50,3 +50,7 @@ function validacao(){
         document.getElementById('fail').style.display = 'flex';
     }
 }
+
+function addClass(){
+    document.getElementById('form').classList.add('was-validated');
+}
